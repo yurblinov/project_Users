@@ -1,0 +1,14 @@
+#wrapper {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.form-control {
+    width: 500px;
+}
+
+.form-width {
+    width: 100px;
+    margin-bottom: 5px;
+
+}
