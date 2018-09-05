@@ -278,14 +278,16 @@
                         //document.getElementsByTagName("tr")[1].setAttribute("class", "hiddenTable");
                         
                         var myNodeList = document.getElementsByName("employ");
+                        //console.log(myNodeList);
                         
                         for (var i = 0; i < myNodeList.length; i++) {
                                 var item = myNodeList[i].innerHTML;
-                                if(dayEmploy < item) {
+                                if(dayEmploy > item) {
                                         document.getElementsByTagName("tr")[i + 1].setAttribute("class", "hiddenTable");   
                                 }
 
                                 console.log(item);
+                                console.log(dayEmploy);
                         }
                         
                         
